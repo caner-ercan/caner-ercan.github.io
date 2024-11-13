@@ -24,7 +24,7 @@ author:
   avatar           : "pp_aacr.jpg"
   name             : "Caner Ercan"
   pronouns         : # example: "she/her"  
-  bio              : "Computational and Translational Pathology"
+  bio              : "Computational and Translational Pathology Researcher"
   location         : "Houston, TX, USA"
   employer         : "University of Texas\nMD Anderson Cancer Center"
   uri              : # URL
@@ -37,9 +37,9 @@ author:
   orcid            : "https://orcid.org/0000-0002-5611-2699"
   semantic         : #"https://www.semanticscholar.org/author/Caner-Ercan/1413445510"
   pubmed           : "https://www.ncbi.nlm.nih.gov/myncbi/1P_O6yuKJtT1Q3/bibliography/public/"
-  researchgate     : "https://www.researchgate.net/profile/Caner-Ercan-4"
+  researchgate     : #"https://www.researchgate.net/profile/Caner-Ercan-4"
   scopus           : "https://www.scopus.com/authid/detail.uri?authorId=57202949918"
-  web of science   : "https://www.webofscience.com/wos/author/record/AAM-9757-2020"
+  webofscience   : "https://www.webofscience.com/wos/author/record/AAM-9757-2020"
 
   # Repositories and software development
   bitbucket        : # Username - Update with your username on the site
