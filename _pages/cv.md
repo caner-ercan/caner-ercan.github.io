@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "CV"
+title: "Curriculum vitae"
 permalink: /cv/
 author_profile: true
 redirect_from:
@@ -11,37 +11,38 @@ redirect_from:
 
 Education
 ======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+* Ph.D. in Translational and computational pathology, 
+  * Dr. sc. med.
+  * Faculty of Medicine University of Basel, Switzerland
+  * 03/2019 - 04/2024 
+* Residency in Pathology
+  * Gazi University, Ankara, Turkey
+  * 11/2024 - 02/2019
+* Medical Doctor
+  * Ege University, Izmir, Turkey
+  * 09/2007 - 08/2014
 
 Work experience
 ======
-* Spring 2024: Academic Pages Collaborator
-  * Github University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+* Postdoctoral Fellow in computational pathology
+  * The University of Texas MD Anderson Cancer Center, Houston, TX, USA
+  * Department of Translational and Molecular Pathology
+  * 09/2023 - _present_
 
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
-
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
+* PhD Student in Translational pathology research
+  * Unispital Basel, Institute of Medical Genetics and Pathology
+  * 03/2019 - 03/2024 
   
-Skills
+<!-- Skills
 ======
 * Skill 1
 * Skill 2
   * Sub-skill 2.1
   * Sub-skill 2.2
   * Sub-skill 2.3
-* Skill 3
+* Skill 3 -->
 
-Publications
+<!-- Publications
 ======
   <ul>{% for post in site.publications reversed %}
     {% include archive-single-cv.html %}
@@ -61,4 +62,4 @@ Teaching
   
 Service and leadership
 ======
-* Currently signed in to 43 different slack teams
+* Currently signed in to 43 different slack teams -->

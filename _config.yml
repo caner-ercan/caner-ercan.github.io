@@ -7,13 +7,13 @@
 # server process.
 
 # Basic Site Settings
-locale                   : "en-US"
+locale                   : "en-GB"
 title                    : "CE"
 title_separator          : "-"
-name                     : &name "Your Name"
-description              : &description "personal description"
+name                     : "Caner Ercan"
+description              : "Academical personal webpage of computational pathology researcher Caner Ercan"
 url                      : https://caner-ercan.github.io/ # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
-baseurl                  : "" # the subpath of your site, e.g. "/blog"
+baseurl                  : #"" # the subpath of your site, e.g. "/blog"
 repository               : "caner-ercan/caner-ercan.github.io"
 
 # Site Author - The following control what appear as part of the author content on the side bar.
@@ -26,7 +26,7 @@ author:
   pronouns         : # example: "she/her"  
   bio              : "Computational and Translational Pathology Researcher"
   location         : "Houston, TX, USA"
-  employer         : "University of Texas\nMD Anderson Cancer Center"
+  employer         : "University of Texas<br>MD Anderson Cancer Center"
   uri              : # URL
   email            : # email
 
@@ -81,8 +81,16 @@ publication_category:
     title: 'Books'
   manuscripts:
     title: 'Journal Articles'    
+  conference:
+    title: 'Conference Paper'
   conferences:
     title: 'Conference Papers'
+  postdoc:
+    title: 'Postdoc projects'    
+  phd:
+    title: 'PhD projects'
+
+
 
 # Site Settings
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
@@ -118,7 +126,7 @@ staticman:
       options:
         format           : "iso8601" # "iso8601" (default), "timestamp-seconds", "timestamp-milliseconds"
 atom_feed:
-  hide                   : false     # change to true to hide the RSS feed in the footer
+  hide                   : true     # change to true to hide the RSS feed in the footer
   path                   : # blank (default) uses feed.xml
 
 
@@ -131,7 +139,7 @@ yandex_site_verification :
 
 # Social Sharing
 twitter:
-  username               : &twitter
+  username               : "caner_ercan"
 facebook:
   username               :
   app_id                 :
@@ -225,6 +233,9 @@ collections:
   talks:
     output: true
     permalink: /:collection/:path/
+  research:
+    output: true
+    permalink: /:collection/:path/
 
 
 # These settings control how pages and collections are included in the site
@@ -282,6 +293,15 @@ defaults:
       layout: talk
       author_profile: true
       share: true
+  # _research
+  - scope:
+      path: ""
+      type: research
+    values:
+      layout: single
+      author_profile: true
+      share: true
+      comment: true
 
 
 # Sass/SCSS
