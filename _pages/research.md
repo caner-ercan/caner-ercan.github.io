@@ -89,7 +89,8 @@ My primary focus is on leveraging advanced image analysis tools to extract quant
 
 </div>
 
-<script>
+<script src="script.js?v=1.0">
+  
   // Quick info descriptions
     const descriptions = {
       postdoc1: {
@@ -137,6 +138,7 @@ My primary focus is on leveraging advanced image analysis tools to extract quant
 
     infoBox.style.display = "block"; // Show the box
   }
+  
 </script>
 
 <br>
