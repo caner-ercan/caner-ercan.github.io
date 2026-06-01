@@ -2,8 +2,6 @@
 layout: archive
 title: "Publications & Research"
 permalink: /research/
-date: 2024-11-23
-type: page
 author_profile: true
 menu:
   main:
@@ -11,239 +9,168 @@ menu:
     weight: 2
 ---
 
-Welcome to my Publications & Research page! Here, I highlight my authored and collaborative research contributions.
-<div class="wordwrap">You can also explore my work on <a href="{{site.author.webofscience}}">Web of Science</a> and <a href="{{site.author.googlescholar}}">Google Scholar</a>.</div>
+Below is an overview of my research programme, organised around three thematic pillars. You can also explore my full publication record on [Web of Science]({{ site.author.webofscience }}) and [Google Scholar]({{ site.author.googlescholar }}).
 
-My primary focus is on leveraging advanced image analysis tools to extract quantifiable features from pathology images, aiming to discover prognostically relevant patterns directly from routine pathology slides. This includes studying molecular alterations and the tumor immune microenvironment.
+## First-Author Projects
 
+<style>
+.project-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 1.5rem;
+  margin: 1.5rem 0;
+}
+.project-card {
+  border: 1px solid var(--global-border-color);
+  border-radius: 6px;
+  overflow: hidden;
+  transition: box-shadow 0.2s ease;
+  background: var(--global-bg-color);
+}
+.project-card:hover {
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+.project-card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  display: block;
+}
+.project-card-body {
+  padding: 1rem;
+}
+.project-card-body h4 {
+  margin: 0 0 0.5rem 0;
+  font-size: 1.05rem;
+  line-height: 1.3;
+}
+.project-card-body p {
+  margin: 0 0 0.75rem 0;
+  font-size: 0.9rem;
+  color: var(--global-text-color);
+  line-height: 1.4;
+}
+.project-card-body a.project-link {
+  font-size: 0.85rem;
+  font-weight: 600;
+  text-decoration: none;
+}
+</style>
 
-<div style="display: flex; flex-direction: column; align-items: center;">
+<div class="project-grid">
 
-  <!-- Research Papers Flex -->
-  <div style="display: flex; flex-direction: row; justify-content: space-evenly; flex-grow: 1;">
-
-    <!-- Postdoc Section -->
-    <div style="display: flex; flex-direction: column; gap: 1rem; justify-content: space-evenly; margin-bottom: 1rem; padding: 1rem;">
-      <div style="flex: 1; text-align: center;">
-        <h2>Postdoc</h2>
-      </div>
-      <div style="flex: 4; display: flex; justify-content: center;">
-        <div style="text-align: center;">
-          <a href="/publication/barretts_esophagus">
-            <img src="/images/be.png" alt="" style="width: 350px; border: 1px solid #555;">
-          </a>
-          <p><strong onclick="updateInfo('postdoc1')">Path-Omics on Barrett's Esophagus</strong></p>
-        </div>
-      </div>
+  <div class="project-card">
+    <a href="/publication/barretts_esophagus">
+      <img src="/images/be.png" alt="Barrett's Esophagus Path-Omics">
+    </a>
+    <div class="project-card-body">
+      <h4>Path-Omics on Barrett's Oesophagus</h4>
+      <p>Weakly supervised deep learning predicts DNA content abnormalities directly from routine H&E biopsy images.</p>
+      <a class="project-link" href="/publication/barretts_esophagus">View project &rarr;</a>
     </div>
-
-    <!-- Vertical line -->
-    <div style="display: flex; flex-direction: column; justify-content: space-evenly; margin-bottom: 1rem;">
-      <div style="width: 1px; height: 100px; background-color: black;">
-      </div>
-    </div>
-
-    <!-- PhD Section -->
-    <div style="display: flex; flex-direction: column; gap: 1rem; justify-content: space-evenly; margin-bottom: 1rem; padding: 1rem;">
-      <div style="flex: 1; text-align: center; padding-right: 1rem;">
-        <h2>PhD</h2>
-      </div>
-      <div style="flex: 4; flex-direction: row; display: flex; gap: 1rem;">
-        <div style="text-align: center;">
-          <a href="/publication/hcc_time">
-            <img src="/images/ihc_time.png" alt="IHC-TIME" style="width: 350px; border: 1px solid #555;">
-          </a>
-          <p><strong onclick="updateInfo('phd2')">IHC-TIME</strong></p>
-        </div>
-        <div style="text-align: center;">
-          <a href="/publication/aih">
-            <img src="/images/aih.png" alt="AI(H)" style="width: 350px; border: 1px solid #555;">
-          </a>
-          <p><strong onclick="updateInfo('phd3')">AI(H)</strong></p>
-        </div>
-        <div style="text-align: center;">
-          <a href="/publication/ccr_fap">
-            <img src="/images/fap.jpg" alt="FAP in CRC" style="width: 350px; border: 1px solid #555;">
-          </a>
-          <p><strong onclick="updateInfo('phd4')">FAP in CRC</strong></p>
-        </div>
-        <div style="text-align: center;">
-          <a href="/publication/fnh_hcc">
-            <img src="/images/fnh.png" alt="FNH to HCC" style="width: 350px; border: 1px solid #555;">
-          </a>
-          <p><strong onclick="updateInfo('phd5')">FNH to HCC</strong></p>
-        </div>
-      </div>
-    </div>
-
   </div>
 
-  <!-- Quick Info Box -->
-  <div id="info-box" style="padding: 1rem; border: 1px solid #ccc; border-radius: 5px; width: 90%; background-color: #f9f9f9;">
-    <p id="info-title" style="text-align: left; font-size: 1.5rem; font-weight: bold;">
-    </p>
-    <p id="info-text" style="text-align: left; font-size: 1rem;">
-    <i>For a short summary, please click on a project title.</i>
-    </p>
+  <div class="project-card">
+    <a href="/publication/beacon">
+      <img src="/images/be.png" alt="BEACON Framework">
+    </a>
+    <div class="project-card-body">
+      <h4>BEACON: Spatial Immune-Molecular Profiling</h4>
+      <p>Integrative framework for cancer risk stratification from routine Barrett's oesophagus histopathology.</p>
+      <a class="project-link" href="/publication/beacon">View project &rarr;</a>
+    </div>
+  </div>
+
+  <div class="project-card">
+    <a href="/publication/hcc_time">
+      <img src="/images/ihc_time.png" alt="IHC-TIME">
+    </a>
+    <div class="project-card-body">
+      <h4>IHC-TIME: HCC Immune Microenvironment</h4>
+      <p>Computational characterisation of spatial immune phenotypes with prognostic significance in hepatocellular carcinoma.</p>
+      <a class="project-link" href="/publication/hcc_time">View project &rarr;</a>
+    </div>
+  </div>
+
+  <div class="project-card">
+    <a href="/publication/aih">
+      <img src="/images/aih.png" alt="AI(H)">
+    </a>
+    <div class="project-card-body">
+      <h4>AI(H): Autoimmune Hepatitis Assessment</h4>
+      <p>Multi-task deep learning model for quantitative, reproducible grading and staging of autoimmune hepatitis from H&E slides.</p>
+      <a class="project-link" href="/publication/aih">View project &rarr;</a>
+    </div>
+  </div>
+
+  <div class="project-card">
+    <a href="/publication/ccr_fap">
+      <img src="/images/fap.jpg" alt="FAP in CRC">
+    </a>
+    <div class="project-card-body">
+      <h4>FAP Expression in Colorectal Cancer</h4>
+      <p>Stromal FAP drives immune microenvironment remodelling toward an immunosuppressive state in colorectal cancer.</p>
+      <a class="project-link" href="/publication/ccr_fap">View project &rarr;</a>
+    </div>
+  </div>
+
+  <div class="project-card">
+    <a href="/publication/fnh_hcc">
+      <img src="/images/fnh.png" alt="FNH to HCC">
+    </a>
+    <div class="project-card-body">
+      <h4>Malignant Potential of Focal Nodular Hyperplasia</h4>
+      <p>First genomic evidence that a benign hepatic lesion can give rise to hepatocellular carcinoma through clonal selection.</p>
+      <a class="project-link" href="/publication/fnh_hcc">View project &rarr;</a>
+    </div>
   </div>
 
 </div>
 
-<script src="script.js?v=1.0">
-  
-  // Quick info descriptions
-    const descriptions = {
-      postdoc1: {
-          title: "Path-Omics: Ecological Analysis of Barrett's Esophagus",
-          text: "This project focuses on the spatially computational analysis of Barrett's Esophagus biopsy images to identify cancer progression-related changes. These include abnormalities in DNA content and alterations in the spatial immune microenvironment. This project has financed by SNF.",
-          link: "/publication/barretts_esophagus"
-      },
-      phd2: {
-          title: "IHC-TIME: Comprehensive Hepatocellular Carcinoma Immune Microenvironment Analysis",
-          text: "As the main project of my PhD, this study investigated the tumor immune microenvironment in hepatocellular carcinoma (HCC) for the first time following the Immuno-Oncology Working Group’s recommendations. The project demonstrated the applicability and significance of microscopic evaluation of immune responses and their relationship with patient prognosis, histology, and tumor heterogeneity. Additionally, we developed a computational pathology tool to analyze slides with accuracy, interpretability, and reproducibility.",
-          link: "/publication/hcc_time"
-      },
-      phd3: {
-          title: "AI(H): A Deep-Learning Model for Assessing Autoimmune Hepatitis",
-          text: "This study aimed to develop a computational pathology tool to analyze liver biopsies for autoimmune hepatitis. Current evaluations rely on semi-qualitative assessments by pathologists under a microscope. Our tool enhances reproducibility in these assessments while introducing fully quantitative evaluations for improved pathological insights.",
-          link: "/publication/aih"
-      },
-      phd4: {
-          title: "FAP Expression in Colorectal Cancer: Links to Angiogenesis and Immunoregulation",
-          text: "This study highlights the significance of the tumor stroma in the tumor microenvironment, focusing on FAP protein expression in cancer-associated fibroblasts. We demonstrated its role in tumor progression, immunoregulatory processes, and patient prognosis.",
-          link: "/publication/ccr_fap"
-      },
-      phd5: {
-          title: "Genomic Insights Into the Malignant Potential of Focal Nodular Hyperplasia",
-          text: "This project explored tumor heterogeneity in a liver carcinoma adjacent to a benign lesion (focal nodular hyperplasia). Spatial genomic analysis revealed a clonal relationship between the lesions, providing the first genomic evidence of malignant transformation from a lesion previously considered benign.",
-          link: "/publication/fnh_hcc"
-      }
-  };
+## Research Themes
 
-  // Function to update the info box
-  function updateInfo(key) {
-    const infoTitle = document.getElementById("info-title");
-    const infoText = document.getElementById("info-text");
+### Spatially-Aware Deep Learning for Histopathological Tissue Characterisation
 
-    const title = descriptions[key]?.title || "Title not found.";
-    const description = descriptions[key]?.text || "Description not found.";
-    const link = descriptions[key]?.link || "#";
-    const finalText = `${title} </br> ${description} <br>For detailed info, please go to the project's page following <a href="${link}" target="_blank">this link</a>.`;
-    
+Combining pathology expertise with proficiency in machine learning and computational image analysis, I developed and led projects building quantitative, automated tools for histopathological tissue assessment that access biological information beyond the reach of manual review. My most significant contribution was a weakly supervised deep learning framework that predicts DNA content abnormalities, a key molecular marker of cancer progression, directly from routine H&E whole-slide images of Barrett's oesophagus biopsies, introducing a novel multi-instance learning augmentation strategy that substantially improved model performance. I further developed AI(H), a multi-task deep learning model for comprehensive histological assessment of autoimmune hepatitis that characterises multiple tissue compartments and pathological features from routine staining, providing spatially resolved, quantitative, and interpretable tissue profiles that improve reproducibility. Complementing these tools, I contributed to establishing an expert consensus morphological framework for standardised tumour-infiltrating lymphocyte assessment in gastro-oesophageal carcinomas, defining the evaluation criteria required for clinical validation of immune biomarkers in this cancer type.
 
-    infoTitle.textContent = title; // Update the title text
-    infoText.innerHTML = `${description} <br>For detailed info, please go to the project's page following <a href="${link}" target="_blank">this link</a>.`;
+1. **Ercan C**, Pan X, Paulson TG, et al. Predicting DNA content abnormalities in Barrett's oesophagus: a weakly supervised learning paradigm. *MIDL*. 2024. [Project page](/publication/barretts_esophagus) | [DOI](https://proceedings.mlr.press/v250/ercan24a.html)
+2. **Ercan C**, Kordy K, Knuuttila A, et al. A deep-learning-based model for assessment of autoimmune hepatitis from histology: AI(H). *Virchows Arch*. 2024;485(6):1095-1105. [Project page](/publication/aih) | [DOI](https://doi.org/10.1007/s00428-024-03841-5)
+3. Weeda YA, Salgado R, van Herpe F, ..., **Ercan C**, ..., Meijer SL. Making sense of TILs: recommendations for morphological assessment of tumour-infiltrating lymphocytes in gastro-oesophageal carcinoma. *Histopathology*. 2026. [DOI](https://doi.org/10.1111/his.70089)
 
-    const infoBox = document.getElementById("info-box");
+### Spatial Profiling of Immune, Stromal, and Tissue Features for Cancer Progression Risk
 
-    infoBox.style.display = "block"; // Show the box
-  }
-  
-</script>
+I established a programme of work linking computational spatial profiling to cancer progression biology across multiple cancer and precancer systems. In my primary PhD project, I pioneered the computational characterisation of the spatial immune microenvironment in hepatocellular carcinoma, developing a deep learning pipeline that classifies tumour immunophenotypes from immunohistochemistry slides and demonstrating that computationally derived immunophenotypes carry prognostic significance. In a parallel project, I co-led a study establishing that stromal activation in colorectal cancer drives immune microenvironment remodelling toward an immunosuppressive state, linking stromal biology to immune tolerance and adverse prognosis. My most advanced contribution in this area is BEACON, a spatially aware integrative framework that jointly characterises molecular abnormality and spatial immune ecology from routine Barrett's oesophagus histopathology, enabling integrated cancer risk stratification from routine pathology images. I further contributed to identifying a morphometric tissue composition signature predicting freedom from invasive progression in ductal carcinoma in situ, demonstrating the generalisability of computational spatial profiling for precancer risk assessment.
 
-<br>
+1. **Ercan C**, Renne SL, Di Tommaso L, Ng CK, Piscuoglio S, Terracciano LM. Hepatocellular carcinoma immune microenvironment analysis: a comprehensive assessment with computational and classical pathology. *Clin Cancer Res*. 2024;30(22):5105-5115. [Project page](/publication/hcc_time) | [DOI](https://doi.org/10.1158/1078-0432.CCR-24-0960)
+2. Coto-Llerena M\*, **Ercan C\***, Kancherla V, et al. High expression of FAP in colorectal cancer is associated with angiogenesis and immunoregulation processes. *Front Oncol*. 2020;10:979. [Project page](/publication/ccr_fap) | [DOI](https://doi.org/10.3389/fonc.2020.00979)
+3. **Ercan C**, Pan X, Paulson TG, et al. Histopathology-based spatial profiling of immune and molecular features predicts cancer risk in Barrett's oesophagus. *medRxiv*. 2025. [Project page](/publication/beacon) | [DOI](https://doi.org/10.1101/2025.11.11.25339952)
+4. Sobral-Leite M, Castillo SP, Vonk S, ..., **Ercan C**, ..., Wesseling J. A morphometric signature to identify ductal carcinoma in situ with a low risk of progression. *NPJ Precis Oncol*. 2025;9(1):25. [DOI](https://doi.org/10.1038/s41698-024-00769-6)
 
+### Clonal Evolution, Tumour Heterogeneity, and Tissue Dynamics in Carcinogenesis
 
-# Research Summary
+By integrating expertise in histopathology, molecular pathology, and translational research, I conducted and contributed to several studies investigating the molecular dynamics of tumour heterogeneity, clonal evolution, and tissue cell fate across carcinogenesis and organ regeneration. In the most conceptually significant of these contributions, I provided the first genomic demonstration that focal nodular hyperplasia, a hepatic lesion regarded as definitively benign, can give rise to hepatocellular carcinoma through clonal selection, establishing a shared genomic ancestry between the precursor lesion and the adjacent carcinoma. I further contributed to the molecular dissection of intra-tumoral heterogeneity in pulmonary pleomorphic carcinoma through multi-region profiling of histologically distinct tumour components, establishing the evolutionary relationships between tumour components and the molecular programs driving their divergent phenotypes. Extending this to regenerative biology, I contributed to the discovery of bipotent transitional liver progenitor cells, demonstrating through dual genetic lineage tracing that a biliary cell-derived progenitor population retains the capacity to adopt either hepatocyte or biliary fate during severe liver injury.
 
-## 1. During Postdoc (MD Anderson Cancer Center)
+1. **Ercan C**, Coto-Llerena M, Gallon J, et al. Genomic analysis of focal nodular hyperplasia with associated hepatocellular carcinoma unveils its malignant potential: a case report. *Commun Med*. 2022;2(1):11. [Project page](/publication/fnh_hcc) | [DOI](https://doi.org/10.1038/s43856-022-00074-y)
+2. Roma L, **Ercan C**, Conticelli F, et al. Tracing tumour heterogeneity of pleomorphic carcinoma of the lung. *J Thorac Oncol*. 2024;19(9):1284-1296. [DOI](https://doi.org/10.1016/j.jtho.2024.04.019)
+3. Pu W, Zhu H, Zhang M, ..., **Ercan C**, ..., Zhou B. Bipotent transitional liver progenitor cells contribute to liver regeneration. *Nat Genet*. 2023;55(4):651-664. [DOI](https://doi.org/10.1038/s41588-023-01335-9)
 
+## Collaborations & Selected Co-authored Work
 
-<details> <summary style="font-weight: bold;"> Conducted Research </summary>
+### Postdoc Period (MD Anderson / CHUV)
 
+- DeMixT 2.0: A deconvolution framework for sparse sequencing data using embedded negative binomial distribution. Submitted to AACR 2025.
+- TMEseg: Tumour microenvironment segmentation from histology images for spatial transcriptomics spot annotation in lung cancer. Submitted to AACR 2025.
+- AI-derived tumour-infiltrating lymphocytes enhance prediction of pathologic complete response in early-stage triple-negative breast cancer. Accepted to SABCS 2024.
+- AI-derived tumour-infiltrating lymphocytes predict invasive breast cancer recurrence in ductal carcinoma in situ. Submitted to AACR 2025.
+- AI-STORM: AI-guided sampling of tissues for optimal representative morphology. Accepted to USCAP 2025.
 
-Here, I present the research projects I led as the first author.<br>
+### PhD Period (University of Basel)
 
-
-During my postdoctoral fellowship in the United States, I have been conducting research in computational pathology. My main project, "Deep learning-based whole-slide image analysis for immune ecology and cancer progression prediction in Barrett’s esophagus," aims to:
-
-  1- Predict aneuploidy directly from endoscopic biopsy images.
-
-  2- Investigate the spatial distribution of immune responses to uncover tumor-immune interactions.
-
-  3- Identify features relevant to cancer progression.
-
-  4- Develop a prognostic prediction tool.
-
-
-This fellowship was funded by the <a href="https://data.snf.ch/grants/grant/214162">funded by SNF in postdoc.Mobility grant schema</a>. While this project is ongoing, key milestones have been presented at scientific conferences. For more details, visit <a href="/publication/barretts_esophagus">this page</a>.  <br>
-
-</details>
-
-<details> <summary style="font-weight: bold;"> Collaborations & Contributions </summary>
-
-Besides my main project, I have been involved in multiple projects in my lab which I contribute with my expertise in pathology, morphology, immunemicroenvironment or pathologenesis, and also utilisation of softwares, algorithms in computarinal pathology research. THe collaborations which I involved and reached a milestone that could be published are listed below with brief desriptions. <br>
-
-  - Spatial Transcriptomics Deconvolution: Developed an algorithm to deconvolve spatial transcriptomics data, submitted to AACR 2025.
-    - DeMixT 2.0: A Deconvolution Framework for Sparse Sequencing Data Using Embedded Negative Binomial Distribution.<br>
-
-  - Tumor Immune Microenvironment Segmentation: Developed a tool to annotate spatial transcriptomics spots for lung cancer, submitted to AACR 2025.
-    - TMEseg: Tumor Microenvironment Segmentation from Histology Images.<br>
-
-  - Breast Cancer Response Prediction: Built an AI-based tool to predict response to treatment in invasive breast carcinoma, accepted to SABCS 2024.
-    - AI-Derived Tumor-Infiltrating Lymphocytes Enhance Prediction of Pathologic Complete Response in Early-Stage Triple-Negative Breast Cancer.<br>
-
-  - Ductal Carcinoma Progression Prediction: Created a tool for progression prediction in ductal carcinoma in situ, submitted to AACR 2025.
-    - AI-Derived Tumor-Infiltrating Lymphocytes Predict Invasive Breast Cancer Recurrence.<br>
-
-  - Morphological Feature Analysis: Revealed cancer progression features in ductal carcinoma in situ, accepted to npj Precision Oncology.
-    - A Morphometric Signature to Identify Ductal Carcinoma In Situ with Low Risk of Progression.<br>
-
-  - Tumor Heterogeneity Sampling Tool: Developed a computational pathology tool for reproducible sampling of heterogeneous tumor regions, accepted to USCAP 2025.
-    - AI-STORM: AI-Guided Sampling of Tissues for Optimal Representative Morphology.<br>
-
-</details>
-
-## 2. During PhD  (University of Basel)
-
-<details>
-    <summary style="font-weight: bold;">Conducted projects</summary>
-During my PhD, I conducted two primary computational pathology projects:
-
-  - Tumor Microenvironment Quantification in Hepatocellular Carcinoma:
-Developed an AI-based model to quantify immune cells and classify tumors into inflamed, immune-excluded, and immune-desert phenotypes based on Nature's 2017 classification.
-
-  - Autoimmune Hepatitis Biopsy Analysis:
-Created the first computational pathology model to grade and stage autoimmune hepatitis biopsies from H&E slides while quantifying immune cells within the microenvironment.
-
-Both projects were recognized with poster awards at international conferences.
-
-Additionally, I led molecular and translational pathology studies on liver and colorectal carcinomas. These included:
-
-  - Investigating the role of cancer-associated stroma in tumor progression.
-
-  - Establishing a molecular link between focal nodular hyperplasia and hepatocellular carcinoma progression.
-
-</details>
-
-
-<details>
-    <summary style="font-weight: bold;">Collaborations & Contributions</summary>
-
-During my PhD, I worked in an interdisciplinary lab focusing on genomic changes in solid cancers. As the lab's pathologist, I contributed to experimental design, patient dataset creation, and microscopic evaluations of diverse samples, including biopsies, cell cultures, animal models, and organoids.
-
-I also collaborated extensively with other labs in Basel’s vibrant biomedical research community, participating in studies using techniques like spatial transcriptomics, FISH, IHC, and RNA-seq. Below are selected publications from these collaborations:
-
-  a.	GATA3 and MDM2 are synthetic lethal in estrogen receptor-positive breast cancers. Commun Biol. 2022 Apr 19;5(1):373. PubMed Central PMCID: PMC9018745. 
-
-  b.	Integrative proteogenomic characterization of hepatocellular carcinoma across etiologies and stages. Nat Commun. 2022 May 4;13(1):2436. PubMed Central PMCID: PMC9068765. 
-
-  c.	Epigenetic priming in chronic liver disease impacts the transcriptional and genetic landscapes of hepatocellular carcinoma. Mol Oncol. 2022 Feb;16(3):665-682. PubMed Central PMCID: PMC8807355. 
-
-  d.	Transcriptional Enhancer Factor Domain Family member 4 Exerts an Oncogenic Role in Hepatocellular Carcinoma by Hippo-Independent Regulation of Heat Shock Protein 70 Family Members. Hepatol Commun. 2021 Apr;5(4):661-674. PubMed Central PMCID: PMC8034568. 
-
-  e.	Bipotent transitional liver progenitor cells contribute to liver regeneration. Nat Genet. 2023 Apr;55(4):651-664. PubMed Central PMCID: PMC10101857. 
-
-  f.	Live slow-frozen human tumor tissues viable for 2D, 3D, ex vivo cultures and single-cell RNAseq. Commun Biol. 2022 Oct 28;5(1):1144. PubMed Central PMCID: PMC9616892. 
-
-  g.	Transposon-activated POU5F1B promotes colorectal cancer growth and metastasis. Nat Commun. 2022 Aug 20;13(1):4913. PubMed Central PMCID: PMC9392749. 
-
-  h.	YAP/TAZ and ATF4 drive resistance to Sorafenib in hepatocellular carcinoma by preventing ferroptosis. EMBO Mol Med. 2021 Dec 7;13(12):e14351. PubMed Central PMCID: PMC8649869. 
-
-
-</details>
-
-
-
-
-
+- GATA3 and MDM2 are synthetic lethal in estrogen receptor-positive breast cancers. *Commun Biol*. 2022;5(1):373. [PMC9018745](https://pmc.ncbi.nlm.nih.gov/articles/PMC9018745/)
+- Integrative proteogenomic characterisation of hepatocellular carcinoma across etiologies and stages. *Nat Commun*. 2022;13(1):2436. [PMC9068765](https://pmc.ncbi.nlm.nih.gov/articles/PMC9068765/)
+- Epigenetic priming in chronic liver disease impacts the transcriptional and genetic landscapes of hepatocellular carcinoma. *Mol Oncol*. 2022;16(3):665-682. [PMC8807355](https://pmc.ncbi.nlm.nih.gov/articles/PMC8807355/)
+- TEAD4 exerts an oncogenic role in hepatocellular carcinoma by Hippo-independent regulation of HSP70 family members. *Hepatol Commun*. 2021;5(4):661-674. [PMC8034568](https://pmc.ncbi.nlm.nih.gov/articles/PMC8034568/)
+- Bipotent transitional liver progenitor cells contribute to liver regeneration. *Nat Genet*. 2023;55(4):651-664. [PMC10101857](https://pmc.ncbi.nlm.nih.gov/articles/PMC10101857/)
+- Live slow-frozen human tumour tissues viable for 2D, 3D, ex vivo cultures and single-cell RNA-seq. *Commun Biol*. 2022;5(1):1144. [PMC9616892](https://pmc.ncbi.nlm.nih.gov/articles/PMC9616892/)
+- Transposon-activated POU5F1B promotes colorectal cancer growth and metastasis. *Nat Commun*. 2022;13(1):4913. [PMC9392749](https://pmc.ncbi.nlm.nih.gov/articles/PMC9392749/)
+- YAP/TAZ and ATF4 drive resistance to sorafenib in hepatocellular carcinoma by preventing ferroptosis. *EMBO Mol Med*. 2021;13(12):e14351. [PMC8649869](https://pmc.ncbi.nlm.nih.gov/articles/PMC8649869/)
