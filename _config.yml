@@ -25,7 +25,9 @@ author:
   avatar           : "pp_aacr.jpg"
   name             : "Caner Ercan"
   pronouns         : # example: "she/her"  
-  bio   : "Full-stack computational pathologist"
+  bio              : |
+    Full-stack
+    Computational Pathologist
   location         : "Lausanne, Switzerland"
   employer         : "CHUV (UniHospital Lausanne)"
   uri              : # URL
