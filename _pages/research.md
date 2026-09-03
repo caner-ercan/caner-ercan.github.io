@@ -60,6 +60,17 @@ Below is an overview of my research programme, organised around three thematic p
 <div class="project-grid">
 
   <div class="project-card">
+    <a href="/publication/beacon">
+      <img src="/images/beacon.png" alt="BEACON: spatial map of DNA content abnormality with matched epithelial and immune cell insets">
+    </a>
+    <div class="project-card-body">
+      <h4>BEACON: Spatial Immune-Molecular Profiling</h4>
+      <p>Integrative framework for cancer risk stratification from routine Barrett's oesophagus histopathology.</p>
+      <a class="project-link" href="/publication/beacon">View project &rarr;</a>
+    </div>
+  </div>
+
+  <div class="project-card">
     <a href="/publication/barretts_esophagus">
       <img src="/images/be.png" alt="Barrett's Esophagus Path-Omics">
     </a>
@@ -67,17 +78,6 @@ Below is an overview of my research programme, organised around three thematic p
       <h4>Path-Omics on Barrett's Oesophagus</h4>
       <p>Weakly supervised deep learning predicts DNA content abnormalities directly from routine H&E biopsy images.</p>
       <a class="project-link" href="/publication/barretts_esophagus">View project &rarr;</a>
-    </div>
-  </div>
-
-  <div class="project-card">
-    <a href="/publication/beacon">
-      <img src="/images/be.png" alt="BEACON Framework">
-    </a>
-    <div class="project-card-body">
-      <h4>BEACON: Spatial Immune-Molecular Profiling</h4>
-      <p>Integrative framework for cancer risk stratification from routine Barrett's oesophagus histopathology.</p>
-      <a class="project-link" href="/publication/beacon">View project &rarr;</a>
     </div>
   </div>
 

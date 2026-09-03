@@ -1,11 +1,11 @@
 ---
 layout: archive
-title: "Talks & Presentations"
+title: "Talks & Teaching"
 permalink: /talks/
 author_profile: true
 menu:
   main:
-    name: "Talks"
+    name: "Talks & Teaching"
     weight: 3
 ---
 
@@ -22,7 +22,27 @@ menu:
 .talk-award { color: #c49a00; font-weight: 600; }
 </style>
 
+<span class="talk-section-title">Teaching &amp; Research Training</span>
+
+<div class="talk-entry">
+  <div class="talk-header">
+    <span class="talk-title"><span class="talk-type">Project Co-Lead</span>Beyond the Patch: Context Aggregation Strategies for Foundation Model-Driven Tertiary Lymphoid Structure Segmentation</span>
+    <span class="talk-date">24 Aug &ndash; 4 Sep 2026</span>
+  </div>
+  <span class="talk-venue">7th TRAIL Research Camp (TReC) | Project 9</span>
+  <span class="talk-location">Lausanne, Switzerland</span>
+</div>
+
 <span class="talk-section-title">Invited &amp; Oral Presentations</span>
+
+<div class="talk-entry">
+  <div class="talk-header">
+    <span class="talk-title"><span class="talk-type">Invited Talk</span>Speaker, AI mini-symposium</span>
+    <span class="talk-date">09 Sep 2026</span>
+  </div>
+  <span class="talk-venue">AI in Practice: Symposium and Workshop for Life Science Researchers | Faculty of Biology and Medicine, UNIL</span>
+  <span class="talk-location">CHUV, Auditorium Auguste Tissot, Lausanne, Switzerland</span>
+</div>
 
 <div class="talk-entry">
   <div class="talk-header">
@@ -63,6 +83,15 @@ menu:
 <span class="talk-section-title">Posters</span>
 
 <span style="font-weight: 600; font-size: 1rem; margin-top: 1rem; display: block;">Postdoc Period</span>
+
+<div class="talk-entry">
+  <div class="talk-header">
+    <span class="talk-title">Spatial Co-Mapping of Aneuploidy and Immune Ecology Stratifies Cancer Risk in Barrett's Oesophagus</span>
+    <span class="talk-date">28 Sep 2026</span>
+  </div>
+  <span class="talk-venue">3rd Conference of the European Society for Spatial Biology (ESSB)</span>
+  <span class="talk-location">Sitges, Spain</span>
+</div>
 
 <div class="talk-entry">
   <div class="talk-header">
