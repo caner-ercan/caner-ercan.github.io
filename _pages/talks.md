@@ -26,10 +26,10 @@ menu:
 
 <div class="talk-entry">
   <div class="talk-header">
-    <span class="talk-title"><span class="talk-type">Project Co-Lead</span>Beyond the Patch: Context Aggregation Strategies for Foundation Model-Driven Tertiary Lymphoid Structure Segmentation</span>
+    <span class="talk-title"><span class="talk-type">Project Co-Lead</span>Beyond the Patch: Context Aggregation Strategies for Foundation Model-Driven Tertiary Lymphoid Structure Segmentation (Project 9)</span>
     <span class="talk-date">24 Aug &ndash; 4 Sep 2026</span>
   </div>
-  <span class="talk-venue">7th TRAIL Research Camp (TReC) | Project 9</span>
+  <span class="talk-venue"><a href="https://trail.ac/en/trail-summer-workshops/submitted-projects-trail-research-camp-2026/">7th TRAIL Research Camp (TReC)</a></span>
   <span class="talk-location">Lausanne, Switzerland</span>
 </div>
 
@@ -40,7 +40,7 @@ menu:
     <span class="talk-title"><span class="talk-type">Invited Talk</span>Speaker, AI mini-symposium</span>
     <span class="talk-date">09 Sep 2026</span>
   </div>
-  <span class="talk-venue">AI in Practice: Symposium and Workshop for Life Science Researchers | Faculty of Biology and Medicine, UNIL</span>
+  <span class="talk-venue"><a href="https://www.unil.ch/events/en/1786431984946">AI in Practice: Symposium and Workshop for Life Science Researchers | Faculty of Biology and Medicine, UNIL</a></span>
   <span class="talk-location">CHUV, Auditorium Auguste Tissot, Lausanne, Switzerland</span>
 </div>
 
@@ -49,7 +49,7 @@ menu:
     <span class="talk-title"><span class="talk-type">Short Talk</span>Spatial Co-Evolution of Molecular Features and Immune Ecology Predicts Cancer Progression Risk in Barrett's Esophagus</span>
     <span class="talk-date">27 May 2026</span>
   </div>
-  <span class="talk-venue">EMBO Workshop: The Many Faces of Cancer Evolution</span>
+  <span class="talk-venue"><a href="https://meetings.embo.org/event/26-cancer-evo">EMBO Workshop: The Many Faces of Cancer Evolution</a></span>
   <span class="talk-location">Rimini, Italy</span>
 </div>
 
@@ -58,7 +58,7 @@ menu:
     <span class="talk-title"><span class="talk-type">Oral</span>Establishing Quantitative Image Analysis Methods for Tumour Microenvironment Evaluation</span>
     <span class="talk-date">15 Oct 2022</span>
   </div>
-  <span class="talk-venue">Triennial Congress of Pathological Anatomy | SIAPeC-IAP 2022</span>
+  <span class="talk-venue"><a href="https://www.siapecmdp.it/triennalesiapec2022/">Triennial Congress of Pathological Anatomy | SIAPeC-IAP 2022</a></span>
   <span class="talk-location">Padova, Italy</span>
 </div>
 
@@ -67,7 +67,7 @@ menu:
     <span class="talk-title"><span class="talk-type">Flash Talk</span>Predicting DNA Content Abnormalities in Barrett's Esophagus: A Weakly Supervised Learning Paradigm</span>
     <span class="talk-date">01 May 2024</span>
   </div>
-  <span class="talk-venue">The New Wave of AI in Healthcare 2024 | New York Academy of Sciences</span>
+  <span class="talk-venue"><a href="https://www.nyas.org/shaping-science/events/ai-in-healthcare/">The New Wave of AI in Healthcare 2024 | New York Academy of Sciences</a></span>
   <span class="talk-location">New York, USA</span>
 </div>
 
@@ -76,7 +76,7 @@ menu:
     <span class="talk-title"><span class="talk-type">Short Presentation</span>QuPath for Digital Pathology</span>
     <span class="talk-date">19 Nov 2021</span>
   </div>
-  <span class="talk-venue">Tools In Digital Pathology Workshop | SDiPath (Swiss Digital Pathology Consortium)</span>
+  <span class="talk-venue"><a href="https://www.youtube.com/watch?v=Ba7oqbqcqOw">Tools In Digital Pathology Workshop | SDiPath (Swiss Digital Pathology Consortium)</a></span>
   <span class="talk-location">Switzerland</span>
 </div>
 
@@ -89,7 +89,7 @@ menu:
     <span class="talk-title">Spatial Co-Mapping of Aneuploidy and Immune Ecology Stratifies Cancer Risk in Barrett's Oesophagus</span>
     <span class="talk-date">28 Sep 2026</span>
   </div>
-  <span class="talk-venue">3rd Conference of the European Society for Spatial Biology (ESSB)</span>
+  <span class="talk-venue"><a href="https://essb2026.org/">3rd Conference of the European Society for Spatial Biology (ESSB)</a></span>
   <span class="talk-location">Sitges, Spain</span>
 </div>
 
@@ -98,7 +98,7 @@ menu:
     <span class="talk-title">Path-omics: Computational Pathology Approach to Predict Barrett's Esophagus Progression</span>
     <span class="talk-date">30 Jun 2025</span>
   </div>
-  <span class="talk-venue">Evolutionary Biology and Ecology of Cancer</span>
+  <span class="talk-venue"><a href="https://coursesandconferences.wellcomeconnectingscience.org/event/evolutionary-biology-and-ecology-of-cancer-20250630/">Evolutionary Biology and Ecology of Cancer</a></span>
   <span class="talk-location">Wellcome Genome Campus, Cambridge, UK</span>
 </div>
 
@@ -107,7 +107,7 @@ menu:
     <span class="talk-title">Path-omics: Computational Pathology Approach to Predict Barrett's Esophagus Progression</span>
     <span class="talk-date">25 Jun 2025</span>
   </div>
-  <span class="talk-venue">European Congress on Digital Pathology (ECDP)</span>
+  <span class="talk-venue"><a href="https://www.ecdp2025.org/">European Congress on Digital Pathology (ECDP)</a></span>
   <span class="talk-location">Barcelona, Spain</span>
 </div>
 
@@ -116,7 +116,7 @@ menu:
     <span class="talk-title">A Novel Approach to Barrett's Esophagus Risk Stratification: Whole-Slide Image Analysis for Aneuploidy Detection</span>
     <span class="talk-date">05 Oct 2024</span>
   </div>
-  <span class="talk-venue">AACR Annual Meeting</span>
+  <span class="talk-venue"><a href="https://www.aacr.org/meeting/aacr-annual-meeting-2024/">AACR Annual Meeting</a></span>
   <span class="talk-location">San Diego, USA</span>
 </div>
 
@@ -125,7 +125,7 @@ menu:
     <span class="talk-title">Predicting DNA Content Abnormalities in Barrett's Esophagus: A Weakly Supervised Learning Paradigm</span>
     <span class="talk-date">03 Jul 2024</span>
   </div>
-  <span class="talk-venue">Medical Imaging with Deep Learning (MIDL)</span>
+  <span class="talk-venue"><a href="https://2024.midl.io/">Medical Imaging with Deep Learning (MIDL)</a></span>
   <span class="talk-location">Paris, France</span>
 </div>
 
@@ -136,7 +136,7 @@ menu:
     <span class="talk-title">AI(H): Deep Learning Model for Staging and Grading Autoimmune Hepatitis from Histology <span class="talk-award">&#9733; Second Best Poster Award</span></span>
     <span class="talk-date">Sep 2022</span>
   </div>
-  <span class="talk-venue">European Congress of Pathology (ECP)</span>
+  <span class="talk-venue"><a href="https://www.esp-pathology.org/wp-content/uploads/esp-member/2025/03/ECP2022_Final-Programme.pdf">European Congress of Pathology (ECP)</a></span>
   <span class="talk-location">Basel, Switzerland</span>
 </div>
 
@@ -145,7 +145,7 @@ menu:
     <span class="talk-title">Establishing Quantitative Image Analysis Methods for Tumour Microenvironment Evaluation</span>
     <span class="talk-date">Apr 2022</span>
   </div>
-  <span class="talk-venue">AACR Annual Meeting</span>
+  <span class="talk-venue"><a href="https://www.aacr.org/meeting/aacr-annual-meeting-2022/">AACR Annual Meeting</a></span>
   <span class="talk-location">New Orleans, USA</span>
 </div>
 
