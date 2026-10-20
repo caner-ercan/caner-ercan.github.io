@@ -33,6 +33,15 @@ menu:
   <span class="talk-location">Lausanne, Switzerland</span>
 </div>
 
+<div class="talk-entry">
+  <div class="talk-header">
+    <span class="talk-title"><span class="talk-type">Project Lead</span>Pathology informed becnhmarking transcriptome segmentation. (WG 4)</span>
+    <span class="talk-date">18 &ndash; 19 May 2026</span>
+  </div>
+  <span class="talk-venue"><a href="https://www.humancellatlas.org/news/hca-spatial-cell-segmentation-hackathon-18-19-may/">HCA Spatial Cell Segmentation Hackathon </a></span>
+  <span class="talk-location">Leiden, Netherlands</span>
+</div>
+
 <span class="talk-section-title">Invited &amp; Oral Presentations</span>
 
 <div class="talk-entry">
