@@ -143,7 +143,7 @@ I established a programme of work linking computational spatial profiling to can
 
 1. **Ercan C**, Renne SL, Di Tommaso L, Ng CK, Piscuoglio S, Terracciano LM. Hepatocellular carcinoma immune microenvironment analysis: a comprehensive assessment with computational and classical pathology. *Clin Cancer Res*. 2024;30(22):5105-5115. [Project page](/publication/hcc_time) | [DOI](https://doi.org/10.1158/1078-0432.CCR-24-0960)
 2. Coto-Llerena M\*, **Ercan C\***, Kancherla V, et al. High expression of FAP in colorectal cancer is associated with angiogenesis and immunoregulation processes. *Front Oncol*. 2020;10:979. [Project page](/publication/ccr_fap) | [DOI](https://doi.org/10.3389/fonc.2020.00979)
-3. **Ercan C**, Pan X, Paulson TG, et al. Histopathology-based spatial profiling of immune and molecular features predicts cancer risk in Barrett's oesophagus. *medRxiv*. 2025. [Project page](/publication/beacon) | [DOI](https://doi.org/10.1101/2025.11.11.25339952)
+3. **Ercan C**, Pan X, Paulson TG, et al. Histopathology-based spatial profiling of immune and molecular features predicts cancer risk in Barrett's oesophagus patients. *Cancer Res*. 2026. [Project page](/publication/beacon) | [DOI](https://doi.org/10.1158/0008-5472.CAN-26-1476)
 4. Sobral-Leite M, Castillo SP, Vonk S, ..., **Ercan C**, ..., Wesseling J. A morphometric signature to identify ductal carcinoma in situ with a low risk of progression. *NPJ Precis Oncol*. 2025;9(1):25. [DOI](https://doi.org/10.1038/s41698-024-00769-6)
 
 ### Clonal Evolution, Tumour Heterogeneity, and Tissue Dynamics in Carcinogenesis

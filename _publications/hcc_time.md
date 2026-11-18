@@ -11,6 +11,10 @@ citation: 'Ercan, Caner, et al. "Hepatocellular carcinoma immune microenvironmen
 
 As the main project of my PhD, this study investigated the tumor immune microenvironment in hepatocellular carcinoma (HCC) for the first time following the Immuno-Oncology Working Group’s recommendations. The project demonstrated the applicability and significance of microscopic evaluation of immune responses and their relationship with patient prognosis, histology, and tumor heterogeneity. Additionally, we developed a computational pathology tool to analyze slides with accuracy, interpretability, and reproducibility.
 
+## Open access
+
+- [Accepted version](https://iris.unil.ch/handle/iris/286534) — UNIL institutional repository (IRIS)
+
 ## Meeting presentations: 
 
 - [AACR 2022](https://doi.org/10.1158/1538-7445.AM2022-453)
