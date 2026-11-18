@@ -7,9 +7,17 @@ date: 2020-07-07
 venue: 'Frontiers in Oncology'
 paperurl: 'https://www.frontiersin.org/journals/oncology/articles/10.3389/fonc.2020.00979/full'
 citation: 'Coto-Llerena M., Ercan C. et al. "High expression of FAP in colorectal cancer is associated with angiogenesis and immunoregulation processes." Frontiers in oncology 10 (2020): 979.'
+pdfthumb: /images/papers/ccr_fap.png
+access:
+  - label: "View the published article"
+    note: "Frontiers in Oncology, 2020 — open access"
+    url: "https://www.frontiersin.org/journals/oncology/articles/10.3389/fonc.2020.00979/full"
+    primary: true
 ---
 
 This study highlights the significance of the tumor stroma in the tumor microenvironment, focusing on FAP protein expression in cancer-associated fibroblasts. We demonstrated its role in tumor progression, immunoregulatory processes, and patient prognosis.
+
+{% include pub-access.html %}
 
 ## Meeting presentations: 
 

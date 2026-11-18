@@ -7,13 +7,21 @@ date: 2024-11-15
 venue: 'Clinical Cancer Research'
 paperurl: 'https://aacrjournals.org/clincancerres/article/30/22/5105/749569/Hepatocellular-Carcinoma-Immune-Microenvironment'
 citation: 'Ercan, Caner, et al. "Hepatocellular carcinoma immune microenvironment analysis: A comprehensive assessment with computational and classical pathology." Clinical Cancer Research 30.22 (2024): 5105-5115.'
+pdfthumb: /images/papers/hcc_time.png
+access:
+  - label: "View the published article"
+    note: "Clinical Cancer Research (AACR), 2024"
+    url: "https://aacrjournals.org/clincancerres/article/30/22/5105/749569/Hepatocellular-Carcinoma-Immune-Microenvironment"
+    primary: true
+  - label: "Read the open-access version"
+    note: "Accepted manuscript — UNIL IRIS"
+    url: "https://iris.unil.ch/handle/iris/286534"
+    icon: "fas fa-lock-open"
 ---
 
 As the main project of my PhD, this study investigated the tumor immune microenvironment in hepatocellular carcinoma (HCC) for the first time following the Immuno-Oncology Working Group’s recommendations. The project demonstrated the applicability and significance of microscopic evaluation of immune responses and their relationship with patient prognosis, histology, and tumor heterogeneity. Additionally, we developed a computational pathology tool to analyze slides with accuracy, interpretability, and reproducibility.
 
-## Open access
-
-- [Accepted version](https://iris.unil.ch/handle/iris/286534) — UNIL institutional repository (IRIS)
+{% include pub-access.html %}
 
 ## Meeting presentations: 
 

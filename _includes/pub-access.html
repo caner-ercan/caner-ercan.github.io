@@ -1,0 +1,41 @@
+{%- comment -%}
+  Publication full-text access block.
+
+  Call from a _publications/*.md body, at column 0 with a blank line either side:
+
+      {% include pub-access.html %}
+
+  Front matter consumed:
+    pdfthumb      header screenshot, e.g. /images/papers/beacon.png
+    pdfthumb_url  optional; where the screenshot links. Defaults to access[0].url
+    access        list of { label, url, note, icon, primary }
+
+  If `access` is absent it falls back to a single button built from `paperurl`
+  and `venue`, so a new publication file works with no extra YAML.
+
+  The screenshot link is aria-hidden/tabindex=-1 with alt="": it duplicates the
+  primary button's destination, so assistive tech gets exactly one link while
+  mouse users keep the large click target.
+{%- endcomment -%}
+{%- assign pa_url = page.paperurl -%}
+{%- if page.access and page.access.size > 0 -%}{%- assign pa_url = page.access[0].url -%}{%- endif -%}
+{%- if page.pdfthumb_url -%}{%- assign pa_url = page.pdfthumb_url -%}{%- endif -%}
+{%- if page.pdfthumb or pa_url -%}
+<div class="pub-access" role="region" aria-label="Full text access">
+{%- if page.pdfthumb and pa_url -%}
+<a class="pub-access__thumb-link" href="{{ pa_url }}" aria-hidden="true" tabindex="-1"><img class="pub-access__thumb" src="{{ page.pdfthumb }}" alt="" loading="lazy" decoding="async"></a>
+{%- elsif page.pdfthumb -%}
+<img class="pub-access__thumb" src="{{ page.pdfthumb }}" alt="" loading="lazy" decoding="async">
+{%- endif -%}
+<p class="pub-access__label"><i class="fas fa-fw fa-book-open-reader" aria-hidden="true"></i> Read the full text</p>
+<div class="pub-access__links">
+{%- if page.access and page.access.size > 0 -%}
+{%- for pa_link in page.access -%}
+<a class="pub-access__btn{% if pa_link.primary %} pub-access__btn--primary{% endif %}" href="{{ pa_link.url }}"><i class="{{ pa_link.icon | default: 'fas fa-up-right-from-square' }} fa-fw" aria-hidden="true"></i><span class="pub-access__btn-text">{{ pa_link.label }}{% if pa_link.note %}<span class="pub-access__btn-note">{{ pa_link.note }}</span>{% endif %}</span></a>
+{%- endfor -%}
+{%- elsif page.paperurl -%}
+<a class="pub-access__btn pub-access__btn--primary" href="{{ page.paperurl }}"><i class="fas fa-up-right-from-square fa-fw" aria-hidden="true"></i><span class="pub-access__btn-text">View the published article{% if page.venue %}<span class="pub-access__btn-note">{{ page.venue | strip }}</span>{% endif %}</span></a>
+{%- endif -%}
+</div>
+</div>
+{%- endif -%}

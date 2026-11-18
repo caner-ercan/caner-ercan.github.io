@@ -6,9 +6,17 @@ excerpt: 'This paper is about development of a computational model for autoimmun
 date: 2024-06-15
 paperurl: 'https://link.springer.com/article/10.1007/s00428-024-03841-5'
 citation: 'Ercan, Caner, et al. "A deep-learning-based model for assessment of autoimmune hepatitis from histology: AI (H)." Virchows Archiv (2024): 1-11.'
+pdfthumb: /images/papers/aih.png
+access:
+  - label: "View the published article"
+    note: "Virchows Archiv (Springer), 2024"
+    url: "https://link.springer.com/article/10.1007/s00428-024-03841-5"
+    primary: true
 ---
 
 This study aimed to develop a computational pathology tool to analyze liver biopsies for autoimmune hepatitis. Current evaluations rely on semi-qualitative assessments by pathologists under a microscope. Our tool enhances reproducibility in these assessments while introducing fully quantitative evaluations for improved pathological insights.
+
+{% include pub-access.html %}
 
 ## Meeting presentations: 
 

@@ -7,10 +7,18 @@ date: 2024-07-03
 venue: 'Medical Imaging with Deep Learning. 2024'
 paperurl: 'https://openreview.net/forum?id=V9H32U1c87'
 citation: 'Ercan, Caner, et al. "Predicting DNA Content Abnormalities in Barrett’s Esophagus: A Weakly Supervised Learning Paradigm." Medical Imaging with Deep Learning. 2024.'
+pdfthumb: /images/papers/barretts_esophagus.png
+access:
+  - label: "Read the paper on OpenReview"
+    note: "Medical Imaging with Deep Learning, 2024 — open access"
+    url: "https://openreview.net/forum?id=V9H32U1c87"
+    primary: true
 ---
 
 As my main projecy in postdoc, this project focuses on the spatially computational analysis of Barrett's Esophagus biopsy images to identify cancer progression-related changes. These include abnormalities in DNA content and alterations in the spatial immune microenvironment. This project has financed by (SNF Postdoc.Mobility) [https://data.snf.ch/grants/grant/214162]. The aim of the projct is firstly detecting aneuploidy in biopsies using weakly supervised methods. Afterwards, investigating the microenviromental heterogeniety in biopsies and its relevance with aneuoploidy related regions within biopsies. 
 The aneuploid detection related study was presented in multiple meetings. The immune environment investigation part is on ging and the reliminary results were submitted to AACR 2025 meeting. 
+
+{% include pub-access.html %}
 
 ## Meeting presentationss:
 

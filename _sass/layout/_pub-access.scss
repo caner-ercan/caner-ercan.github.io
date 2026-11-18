@@ -1,0 +1,159 @@
+/* ==========================================================================
+   PUBLICATION ACCESS BLOCK
+   Used by _includes/pub-access.html, called from _publications/*.md bodies.
+   Screenshot of the paper header on top, access buttons below.
+   ========================================================================== */
+
+.pub-access {
+  margin: 2em 0;
+  padding: 1.25rem;
+  border: 1px solid var(--global-dark-border-color);
+  border-left: 4px solid var(--global-base-color);
+  border-radius: $border-radius;
+  background-color: var(--global-bg-color);
+
+  /* `.page__content a` (0,2,0) underlines every link in the body and paints a
+     black box-shadow on hovered images that is invisible on the dark theme.
+     `.pub-access a` is also (0,2,0) and this partial is imported after
+     `layout/page`, so it wins on source order. Do NOT narrow this to
+     `.pub-access__btn` — (0,1,0) would lose. */
+  a {
+    text-decoration: none;
+  }
+
+  a:hover img {
+    box-shadow: none;
+  }
+}
+
+/* --- screenshot ---------------------------------------------------------- */
+
+.pub-access__thumb-link {
+  display: block;
+  overflow: hidden;
+  line-height: 0;
+  border: 1px solid var(--global-dark-border-color);
+  border-radius: $border-radius;
+  transition: border-color 0.2s ease, box-shadow 0.2s ease;
+
+  &:hover,
+  &:focus-visible {
+    border-color: var(--global-base-color);
+    box-shadow: 0 0 0 2px var(--global-base-color);
+  }
+}
+
+.pub-access__thumb {
+  display: block;
+  width: 100%;
+  height: auto; /* each header keeps its natural crop; one per page, so no
+                   cross-card alignment to maintain */
+  background-color: #fff; /* PDF pages are white — keeps the crop readable
+                             against the dark theme's #474747 card */
+}
+
+/* --- buttons ------------------------------------------------------------- */
+
+.pub-access__label {
+  margin: 1rem 0 0.5rem;
+  font-family: $sans-serif;
+  font-size: 0.8rem;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--global-text-color);
+}
+
+.pub-access__links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+}
+
+/* Deliberately NOT `.btn`: `.btn:hover` in layout/_buttons.scss is a
+   hard-coded `mix(white, #000, 20%)` grey that ignores the theme. */
+.pub-access__btn {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  flex: 1 1 200px; /* a lone button spans the card; several share the width
+                      and wrap on narrow screens */
+  min-width: 0;
+  padding: 0.7rem 0.9rem;
+  font-family: $sans-serif;
+  font-size: 0.95rem;
+  font-weight: 600;
+  line-height: 1.25;
+  color: var(--global-base-color);
+  background-color: transparent;
+  border: 1px solid var(--global-base-color);
+  border-radius: $border-radius;
+  transition: background-color 0.2s ease, color 0.2s ease,
+              box-shadow 0.2s ease, filter 0.2s ease;
+
+  /* a ring, not a drop shadow: rgba(0,0,0,.x) vanishes on #474747 */
+  &:hover {
+    box-shadow: 0 0 0 2px var(--global-base-color);
+    filter: brightness(1.08);
+  }
+
+  &:focus-visible {
+    outline: 2px solid var(--global-text-color);
+    outline-offset: 2px;
+  }
+
+  /* `a:visited` would otherwise recolour the label mid-card */
+  &:visited {
+    color: var(--global-base-color);
+  }
+
+  i {
+    flex: 0 0 auto;
+    font-size: 1.05em;
+  }
+}
+
+.pub-access__btn--primary {
+  color: #fff;
+  background-color: var(--global-base-color);
+
+  &:visited {
+    color: #fff;
+  }
+}
+
+.pub-access__btn-text {
+  display: flex;
+  flex-direction: column;
+  min-width: 0; /* lets a long label wrap instead of blowing out the flex row */
+}
+
+.pub-access__btn-note {
+  margin-top: 0.15rem;
+  font-size: 0.78rem;
+  font-weight: 400;
+  opacity: 0.85;
+}
+
+/* --- dark theme ----------------------------------------------------------
+   Everything above is var-driven, but --global-base-color is #0ea1c5 on a
+   #474747 card, where:
+     white on #0ea1c5   = 3.0:1  (fails AA)
+     #0ea1c5 on #474747 = 3.1:1  (fails AA)
+   -------------------------------------------------------------------------- */
+html[data-theme="dark"] {
+  .pub-access__btn {
+    color: var(--global-text-color); /* white on #474747 = 9.3:1 */
+
+    &:visited {
+      color: var(--global-text-color);
+    }
+  }
+
+  .pub-access__btn--primary {
+    /* --global-link-color-hover is mix(#000, #0ea1c5, 25%) = #0b7994;
+       white on it = 4.7:1 */
+    background-color: var(--global-link-color-hover);
+    border-color: var(--global-link-color-hover);
+  }
+}

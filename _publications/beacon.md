@@ -7,6 +7,20 @@ date: 2026-10-27
 venue: 'Cancer Research'
 paperurl: 'https://doi.org/10.1158/0008-5472.CAN-26-1476'
 citation: 'Ercan, Caner, et al. "Histopathology-based spatial profiling of immune and molecular features predicts cancer risk in Barrett''s esophagus patients." Cancer Research (2026).'
+pdfthumb: /images/papers/beacon.png
+access:
+  - label: "View the published article"
+    note: "Cancer Research (AACR), 2026"
+    url: "https://doi.org/10.1158/0008-5472.CAN-26-1476"
+    primary: true
+  - label: "Code"
+    note: "GitHub — full pipeline"
+    url: "https://github.com/caner-ercan/BEACON"
+    icon: "fab fa-github"
+  - label: "Models"
+    note: "Zenodo — trained weights"
+    url: "https://doi.org/10.5281/zenodo.17583572"
+    icon: "fas fa-cube"
 ---
 
 ![BEACON spatial profiling](/images/beacon.png)
@@ -14,6 +28,8 @@ citation: 'Ercan, Caner, et al. "Histopathology-based spatial profiling of immun
 Most patients with Barrett's oesophagus never progress to adenocarcinoma, yet surveillance is applied broadly, which leads to overtreatment of a low-risk majority. Progression is driven by a combination of genomic and microenvironmental factors, but existing predictive models rarely capture both, and almost never from the routine specimens that are already collected in clinical practice.
 
 BEACON (**B**arrett **E**sophagus DNA content **A**bnormality and immune e**c**ology for cancer **O**utcome) addresses this gap. It is a spatially aware framework that recovers a molecular readout and an immune-ecological readout from the same H&E slide, then integrates the two spatially for risk stratification. The work is published in *Cancer Research*; the full pipeline is openly available.
+
+{% include pub-access.html %}
 
 ## Framework
 
@@ -37,10 +53,9 @@ Together this shows that a molecular abnormality and its surrounding immune resp
 
 ## Code and models
 
-- [**GitHub repository**](https://github.com/caner-ercan/BEACON) — full inference and fine-tuning pipeline, with Docker images for each stage
-- [**Zenodo archive**](https://doi.org/10.5281/zenodo.17583572) — fine-tuned model weights (DACOR, CellViT, SegFormer, LASSO risk model) and manual annotations
-- [**Published paper**](https://doi.org/10.1158/0008-5472.CAN-26-1476) — *Cancer Research*, 2026
 - [**Preprint**](https://doi.org/10.1101/2025.11.11.25339952) — medRxiv, 2025 (open access version)
+
+The [GitHub repository](https://github.com/caner-ercan/BEACON) carries the full inference and fine-tuning pipeline with Docker images for each stage, and the [Zenodo archive](https://doi.org/10.5281/zenodo.17583572) holds the fine-tuned model weights (DACOR, CellViT, SegFormer, LASSO risk model) together with the manual annotations.
 
 The base REMEDIS model is not redistributed here; it is available from [PhysioNet](https://physionet.org/content/medical-ai-research-foundation/1.0.0/) on registration. Code is released under GPL-3.0.
 
